@@ -21,6 +21,20 @@
   </div>
 </div>
   
+  <!--Start of Tawk.to Script-->
+<!-- <script type="text/javascript">
+  var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+  (function(){
+  var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+  s1.async=true;
+  s1.src='https://embed.tawk.to/5fcb6593a1d54c18d8f0afbe/default';
+  s1.charset='UTF-8';
+  s1.setAttribute('crossorigin','*');
+  s0.parentNode.insertBefore(s1,s0);
+  })();
+</script> -->
+<!--End of Tawk.to Script-->
+
   <script src="./js/jquery.min.js"></script>
 
   <script src="./js/particals/particles.js"></script>
@@ -32,4 +46,7 @@
   <script>
     AOS.init();
   </script>
+
+<!-- <script src="https://www.google.com/recaptcha/api.js"></script> -->
+
   <script src="./js/main.js"></script>
