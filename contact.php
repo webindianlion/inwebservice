@@ -21,7 +21,7 @@
                 <input type="text" name="mobile" placeholder="Mobile" class="form-control" required>
             </div>
             <div class="form-group">
-                <textarea name="umessage" placeholder="Your Message" cols="45" rows="3" class="p-2"></textarea>
+                <textarea name="umessage" placeholder="Your Message" cols="45" rows="3" class="form-control p-2"></textarea>
             </div>
             <input type="hidden" id="g-recaptcha-response" name="g-recaptcha-response" /><br >
             <input type="submit" name="submit" value="Submit" class="btn btn-primary">
