@@ -9,8 +9,10 @@
         <div id="particles-js">
             <canvas class="particles-js-canvas-el" width="659" height="472"></canvas>
         </div>
-        <div class="videoText">
-            <h1> inwebservice <span>  We are commited to assist our business clients to develop and maintain their websites. </span> </h1>
+        <div class="videoText position-absolute top-50  w-100">
+            <!-- <h1> inwebservice <span>  We are commited to assist our business clients to develop and maintain their websites. </span> </h1> -->
+            <h1 class="container m-auto pt-1">For impactful and innovative digital solutions</h1>
+            <p class="container m-auto pt-1">You can choose us as your technology partner.</p>
             <!-- <p class="top_45 for-web typewriter" >
                 <span class="typed"></span><span>|</span>
             </p> -->
@@ -19,22 +21,33 @@
     </div>
 
     <section class="container whyWebsite ">
-        <h3 class="ttl">Why Your business need a website?</h3>
-        <p  class="subTtl">Lets give more space to your business to expend via internet with website wings.</p>
-        <div class="row">
-            <div class="col-12 col-sm-6 col-lg-4 cardd"  data-aos="fade-up"> <p> <i class="fas fa-dollar-sign"></i> Your business brand credibility is proven by your business website. </p>  </div>
-            <div class="col-12 col-sm-6 col-lg-4 cardd"  data-aos="fade-up"> <p> <i class="fas fa-certificate"></i> Your business brand are Easily Accessible with business website.</p> </div>
-            <div class="col-12 col-sm-6 col-lg-4 cardd"  data-aos="fade-up"> <p> <i class="fas fa-handshake"></i> Your business website builds a relationship with your existing clients and your potietial. </p> </div>
-            <div class="col-12 col-sm-6 col-lg-4 cardd"  data-aos="fade-up"> <p> <i class="fas fa-box-open"></i>   Your business website can be a Showcase Your Products or Services. </p> </div>
-            <div class="col-12 col-sm-6 col-lg-4 cardd"  data-aos="fade-up"> <p> <i class="fab fa-bandcamp"></i> Your business website increase the visibility of your brand. </p> </div>
-            <div class="col-12 col-sm-6 col-lg-4 cardd"  data-aos="fade-up"> <p> <i class="fas fa-search"></i> Your business website always gives you the benefit of Google Searches </p> </div>
-            <div class="col-12 col-sm-6 col-lg-4 cardd"  data-aos="fade-up"> <p> <i class="fas fa-poll"></i> Your business website always an important tool of online marketing. </p> </div>
-            <div class="col-12 col-sm-6 col-lg-4 cardd"  data-aos="fade-up"> <p> <i class="fas fa-users"></i> Your business website can strategically target your customers. </p> </div>
-            <div class="col-12 col-sm-6 col-lg-4 cardd"  data-aos="fade-up"> <p> <i class="fas fa-id-card"></i> Most impotantly All of your competitors are already having a business website. </p> </div>
+        <h3 class="ttl">Why your business need a website?</h3>
+        <p  class="subTtl">Lets give more space to your business to expend via internet with the website wings.</p>
+        <div class="row d-flex justify-content-between">
+            <div class="col-md-4 textPart">
+                
+                <div class="list-group">
+                    <a href="#" class="list-group-item list-group-item-action list-group-item-primary">Your business brand credibility is proven by your business website.</a>                
+                    <a href="#" class="list-group-item list-group-item-action list-group-item-warning"> Your business brand are Easily Accessible with business website. </a>
+                    <a href="#" class="list-group-item list-group-item-action list-group-item-success"> Your business website builds a relationship with your existing clients and your potietial. </a>
+                    <a href="#" class="list-group-item list-group-item-action list-group-item-danger"> Your business website can be a Showcase Your Products or Services. </a>
+                    <a href="#" class="list-group-item list-group-item-action list-group-item-warning"> Your business website increase the visibility of your brand.  </a>
+                    <a href="#" class="list-group-item list-group-item-action list-group-item-info"> Your business website always gives you the benefit of Google Searches </a>                
+                    <a href="#" class="list-group-item list-group-item-action list-group-item-dark"> Your business website can strategically target your customers. </a>
+                    <a href="#" class="list-group-item list-group-item-action list-group-item-warning"> Your business website always an important tool of online marketing. </a>
+                    <a href="#" class="list-group-item list-group-item-action list-group-item-primary"> Most impotantly All of your competitors are already having a business website. </a> 
+                </div>
+
+            </div>
+            <div class="col-md-7 imgPart d-flex align-items-center">
+                <img src="./images/why-your-business-need-website.jpg" alt="">
+            </div>            
         </div>
     </section>
+
     <div class="seprator"></div>
-    <section class="container">
+
+    <section class="container expertise">
         <h3 class="ttl"> Our Expertise</h3>
         <p  class="subTtl"> We are best in Industry for the following web development tasks. </p>
         <div class="row">
