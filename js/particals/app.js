@@ -59,7 +59,7 @@ particlesJS("particles-js", {
         },
         move: {
             enable: !0,
-            speed: 6,
+            speed: 1,
             direction: "none",
             random: !1,
             straight: !1,

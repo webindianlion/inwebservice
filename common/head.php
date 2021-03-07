@@ -1,13 +1,36 @@
+<?php
+
+include "meta.php";
+
+// Choice 2: If you want to make it little more dynamic
+// Here you don't need to define any hardcoded variable at page level as everything will be considered from the URL being requested
+$page_index = array_keys($meta);
+
+foreach($page_index as $page)
+{
+
+    if ( strpos( strtoupper($_SERVER['REQUEST_URI']), $page ) !== false)
+    {
+        $title = $meta[$page]['title'];
+        $keywords = $meta[$page]['keywords'];
+        $description = $meta[$page]['description'];
+        break;
+    }
+}
+// Now you have your meta - use it the way you want
+// echo $title;
+
+?>
+
 <head>
 
-<!-- <meta http-equiv="X-UA-Compatible" content="IE=edge"> -->
-    <title>inwebservice</title>
+    <title><?php echo $title ?></title>
     <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />    
     
     <!-- <meta http-equiv="X-UA-Compatible" content="IE=edge"> -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="Keywords" content="website deisgn at your cost">
-    <meta name="Description" content="website deisgn at your cost">
+    <meta name="Keywords" content="<?php echo $keywords; ?>" >
+    <meta name="Description" content="<?php echo $description ?>">
     <link rel="preconnect" href="https://fonts.gstatic.com">
 
     <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon">

@@ -10,11 +10,21 @@ $(document).ready(function () {
     var containerr_height = $('.containerr').height();  
     var typewriter_height = $(".containerr .videoText").height();
     $(".containerr .videoText").css("top", containerr_height / 2 - typewriter_height / 2);
+
+
+    // script to add active class to top menu bar
+
+    $(".topbarMenu a").each(function() {
+        // console.log($(this).attr('href'));
+        if ((window.location.pathname.indexOf($(this).attr('href'))) > -1) {
+            $(this).addClass('activeMenuItem');
+        }
+      });
+
 });
 
 $(function() {
   
-
     // dislay or hide the menu if the user resize the window
     $(window).resize(function() {
         var wi = $(window).width();
